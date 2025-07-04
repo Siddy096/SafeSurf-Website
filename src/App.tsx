@@ -257,14 +257,19 @@ function App() {
             Recovery is a journey, not a destination. Let our extension be your companion on the path to freedom and self-control.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center gap-2">
-              <Download className="h-5 w-5" />
-              Download Extension
-            </button>
-            {/* <button className="border border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
-              Learn About Recovery
-            </button> */}
-          </div>
+              <a
+                href="/SafeSurf-Extension.zip"
+                download
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
+              >
+                <Download className="h-5 w-5" />
+                Download Extension
+              </a>
+
+              {/* <button className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
+                Learn More
+              </button> */}
+            </div>
         </div>
       </section>
       {/* About Us Section */}
